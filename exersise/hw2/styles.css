@@ -1,50 +1,30 @@
-.mainConteiner{
-    background-color: rgb(215, 213, 213);
+.body-container{
     margin: 0 100px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-header{
-    background-color: rgb(110, 110, 250);
-    height: 80px;
+.header{
+    background-color:  rgb(102, 102, 185);
+}
+.main-container{
+    background-color: rgb(153, 153, 241);
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    
 }
 header :last-child{
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
-.wrapOfMainInformation{
+/* .wrapOfMainInformation{
     width: 1000px;
     height: 330px;
     margin: 0 auto;
-}
-.informationItem{
-    /* float: left;
-    text-align: justify;
-    width: 450px;
-    height: 250px;
-    margin-right: 10px;
-    padding-right: 5px;
-    background: rgb(70, 80, 90); 
-    color: white; */
-
-    float: left; /*Задаем обтекание*/ 
-    line-height: 20px;/*Высота строки + верт центрирования текста*/ 
-    font-size: 18px; 
-    background: rgb(94, 81, 136); 
-    color: white; 
-    width: 400px; /*Фиксируем ширину блока*/ 
-    height: 330px;
-    margin: 0 66px; 
-    text-align: justify; /*Центрируем текст по горизонтали*/
-
-}
-
-.wrapOfMainInformation :last-child{
-    margin: 0px;
-}
-.Stack{
-    
-    width: 1000px;
-    height: 20px;
-    margin: 0 15px;
+} */
+.sstack{
+    background: rgb(183, 183, 245);
 }
 .stackItem{
     float: left; /*Задаем обтекание*/ 
@@ -57,16 +37,52 @@ header :last-child{
 
     text-align: center; /*Центрируем текст по горизонтали*/
 }
-.Stack :last-child{
-    margin-right: 0px;
-}
-.centredText{
-    text-align: center;
-}
-/* .rightText{
-    text-align: right;
-} */
 
-.FIO{
-    text-align: right;
+
+.centredHeading{
+    text-align: center;
+    font: 900 32px "Roboto", sans-serif;
+    color: #000000;
+    text-shadow: 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+.avatar{
+    height: 250px;
+    border: 10px solid #2b163f;
+}
+
+.flex-container {
+    /* border: 10px solid #7f00ff; */
+  }
+.flex-item {
+    padding: 10px;
+    font: 900 24px "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 40vh;
+}
+  
+ .Stack{
+    min-height: 10px;
+ }
+  
+  @media screen and (max-width: 650px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+.text{
+    color: #000000;
+    font: 900 20px "Roboto", sans-serif;
+    text-align: justify;
+    text-shadow: 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+.lang{
+    color: #545454;
 }
