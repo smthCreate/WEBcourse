@@ -1,0 +1,72 @@
+.mainConteiner{
+    background-color: rgb(215, 213, 213);
+    margin: 0 100px;
+}
+header{
+    background-color: rgb(110, 110, 250);
+    height: 80px;
+}
+header :last-child{
+    margin-right: 10px;
+}
+
+.wrapOfMainInformation{
+    width: 1000px;
+    height: 330px;
+    margin: 0 auto;
+}
+.informationItem{
+    /* float: left;
+    text-align: justify;
+    width: 450px;
+    height: 250px;
+    margin-right: 10px;
+    padding-right: 5px;
+    background: rgb(70, 80, 90); 
+    color: white; */
+
+    float: left; /*Задаем обтекание*/ 
+    line-height: 20px;/*Высота строки + верт центрирования текста*/ 
+    font-size: 18px; 
+    background: rgb(94, 81, 136); 
+    color: white; 
+    width: 400px; /*Фиксируем ширину блока*/ 
+    height: 330px;
+    margin: 0 66px; 
+    text-align: justify; /*Центрируем текст по горизонтали*/
+
+}
+
+.wrapOfMainInformation :last-child{
+    margin: 0px;
+}
+.Stack{
+    
+    width: 1000px;
+    height: 20px;
+    margin: 0 15px;
+}
+.stackItem{
+    float: left; /*Задаем обтекание*/ 
+    line-height: 20px;/*Высота строки + верт центрирования текста*/ 
+    font-size: 16px; 
+    background: rgb(212, 225, 237); 
+    color: rgb(0, 0, 0); 
+    width: 50px; /*Фиксируем ширину блока*/ 
+    margin-right: 180px; 
+
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+.Stack :last-child{
+    margin-right: 0px;
+}
+.centredText{
+    text-align: center;
+}
+/* .rightText{
+    text-align: right;
+} */
+
+.FIO{
+    text-align: right;
+}

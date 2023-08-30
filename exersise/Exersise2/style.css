@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+header div{
+    text-align: center;
+    
+}
+header, footer{
+    background-color: rgb(247, 247, 185);
+    
+    padding: 10px 0 10px 10px;
+     /* сверху справа снизу слева */
+}
+
+.Conteiner{
+    background-color: rgb(203, 126, 71);
+    width: 600px;
+    margin: 0 20px;
+    /* padding: 0 0 0 10px; сверху справа снизу слева */
+}
+main{
+    padding: 0 0 0 10px;
+}
+
+.catsTitle{
+    color: brown;
+}
+.name1 {
+    color: aqua;
+}
+
